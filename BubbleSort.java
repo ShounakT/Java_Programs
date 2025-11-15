@@ -3,6 +3,11 @@ public class BubbleSort {
     {
         int[] a = {-3,4,2,6,1};
         int n = a.length;
+        System.out.println("Before Sorting: /n");
+        for(int i : a)
+        {
+            System.out.print(i + " ");
+        }
         for(int i=0;i<n-1;i++)
         {
             for(int j=0;j<n-1-i;j++)
@@ -14,6 +19,7 @@ public class BubbleSort {
                 }
             }
         }
+        System.out.println("After Sorting: /n");
         for(int i : a)
         {
             System.out.print(i + " ");
@@ -21,3 +27,4 @@ public class BubbleSort {
     }
 
 }
+
